@@ -1,0 +1,10 @@
+.venv/
+.DS_Store
+__pycache__/
+*.pyc
+*.egg-info/
+.scratch_mpl/
+.scratch_scite_test/
+.scratch_cba_logo/
+# Personal laptop paths must never appear in shipped files.
+# do not ship personal paths

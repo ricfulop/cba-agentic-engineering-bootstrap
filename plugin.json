@@ -1,0 +1,17 @@
+{
+  "$schema": "https://open-plugins.com/schemas/1.0.0/plugin.schema.json",
+  "name": "cba-agentic-engineering-bootstrap",
+  "version": "1.0.0",
+  "description": "CBA Agentic Engineering Bootstrap Toolkit — research skills for Cursor (figures, prose, literature corpus, MIT decks, patched K-Dense methods).",
+  "author": {
+    "name": "Ric Fulop / MIT Center for Bits and Atoms"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cba",
+    "mit",
+    "research",
+    "figures",
+    "literature"
+  ]
+}

@@ -1,0 +1,22 @@
+---
+description: Always-on CBA research defaults (figures, prose, citations, affiliation)
+alwaysApply: true
+---
+
+# CBA research defaults
+
+- **Figures:** Start with `apply_aps_style()`, `apply_nature_style()`, or
+  `apply_science_style()` from this plugin's `lib/styles.py`. Never bare
+  `plt.figure()`. Colors from `OKABE_ITO` or `MATERIALS`. Sizes from the
+  helpers. Captions live in LaTeX, not inside the figure.
+- **Prose:** Follow `manuscript-prose-style`. American English unless the
+  venue says otherwise. Noun-phrase headings. No machine-generation tells.
+- **Citations:** Use scite if configured. Never invent DOIs. Web search
+  and X are not the citation oracle. Without scite, `paper-lookup` plus
+  one-pass Crossref still works.
+- **Presentations:** Official MIT template and MIT marks only.
+- **Affiliation:** Center for Bits and Atoms, Massachusetts Institute of
+  Technology.
+- **Honesty:** Corpus before analysis. Verify before claiming. Preregister
+  confirmatory protocols. Dual-source honesty (catalog vs bibliography;
+  measured vs derived).

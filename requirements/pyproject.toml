@@ -1,0 +1,30 @@
+[project]
+name = "cba-agentic-engineering-bootstrap"
+version = "1.0.0"
+description = "Python extras for the CBA Agentic Engineering Bootstrap Toolkit"
+requires-python = ">=3.12"
+authors = [{ name = "Ric Fulop / MIT Center for Bits and Atoms" }]
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "scipy",
+  "python-pptx",
+  "astropy",
+  "seaborn",
+  "statsmodels",
+  "sympy",
+  "scikit-learn",
+  "pymoo",
+  "pyzotero",
+]
+
+[project.optional-dependencies]
+materials = ["pymatgen"]
+bayes = ["pymc"]
+fluids = ["fluidsim"]
+heavy = ["pymatgen", "pymc", "fluidsim"]
+kitchen = ["pymatgen", "pymc"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

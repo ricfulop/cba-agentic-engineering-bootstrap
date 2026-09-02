@@ -1,0 +1,28 @@
+{
+  "name": "cba-agentic-engineering-bootstrap",
+  "displayName": "CBA Agentic Engineering Bootstrap Toolkit",
+  "version": "1.0.0",
+  "description": "Research skills for CBA Cursor users (figures, prose, literature corpus, MIT decks, patched K-Dense methods).",
+  "author": {
+    "name": "Ric Fulop / MIT Center for Bits and Atoms"
+  },
+  "homepage": "https://www.media.mit.edu/groups/center-for-bits-and-atoms/",
+  "license": "MIT",
+  "keywords": [
+    "cba",
+    "mit",
+    "research",
+    "figures",
+    "literature",
+    "manuscript"
+  ],
+  "category": "research",
+  "tags": [
+    "scientific-writing",
+    "figures",
+    "literature-corpus",
+    "mit-presentation"
+  ],
+  "skills": "./skills/",
+  "rules": "./rules/"
+}
